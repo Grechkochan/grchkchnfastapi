@@ -23,6 +23,7 @@
 1. Клонировать репозиторий:
 
 git clone https://github.com/Grechkochan/grchkchnfastapi.git
+
 cd grchkchnfastapi
 
 
