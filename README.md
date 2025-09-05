@@ -22,27 +22,27 @@
 
 1. Клонировать репозиторий:
 
-git clone https://github.com/Grechkochan/grchkchnfastapi.git
+ - git clone https://github.com/Grechkochan/grchkchnfastapi.git
 
-cd grchkchnfastapi
+ - cd grchkchnfastapi
 
 
 2. Собрать и запустить контейнеры:
 
-docker compose up --build -d
+ - docker compose up --build -d
 
 
 3. Прогнать миграции для создания таблиц в базе данных:
 
-docker compose exec web alembic upgrade head
+ - docker compose exec web alembic upgrade head
 
 
 4. Проверить, что сервис работает, открыв в браузере:
 
-http://localhost:8000/docs
+ - http://localhost:8000/docs
 
 ## Примечание
-- Для удаления всех данных базы данных используйте:
+ - Для удаления всех данных базы данных используйте:
 docker compose down -v
 
 
